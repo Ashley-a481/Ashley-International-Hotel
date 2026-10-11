@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Ashley International Hotel in Kijungu, Hoima, Uganda. Enjoy comfortable accommodation, swimming pool, restaurant, modern facilities and excellent hospitality."
+    />
+    <meta name="theme-color" content="#1f2925" />
+    <title>Ashley International Hotel | Kijungu, Hoima, Uganda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="announcement">
+        <span>Now welcoming guests in Kijungu, Hoima</span
+        ><a href="#booking"
+          >Reserve your stay <i data-lucide="arrow-up-right"></i
+        ></a>
+      </div>
+      <nav class="nav container" aria-label="Main navigation">
+        <a
+          class="brand"
+          href="#top"
+          aria-label="Ashley International Hotel home"
+          ><span class="brand-mark">A</span
+          ><span
+            ><strong>ASHLEY</strong><small>INTERNATIONAL HOTEL</small></span
+          ></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-controls="rooms-menu">
+              Rooms <i data-lucide="chevron-down"></i>
+            </button>
+            <div class="rooms-menu" id="rooms-menu">
+              <a href="#standard-room">Standard Room</a>
+              <a href="#deluxe-room">Deluxe Room</a>
+              <a href="#executive-room">Executive Room</a>
+              <a href="#family-room">Family Room</a>
+              <a href="#vip-suite">VIP Suite</a>
+            </div>
+          </div>
+          <a href="#pool">Pool</a><a href="#dining">Dining</a
+          ><a href="#services">Services</a><a href="#gallery">Gallery</a
+          ><a href="#contact">Contact</a>
+          <a class="nav-book" href="#booking"
+            >Book now <i data-lucide="arrow-up-right"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image"></div>
+        <div class="hero-shade"></div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow light">A considered stay in Hoima</p>
+          <h1 id="hero-title">Welcome to<br /><em>Ashley International</em></h1>
+          <p class="hero-lede">
+            Your comfort, our priority. Thoughtful rooms, warm Ugandan
+            hospitality and space to slow down in the heart of Kijungu.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#booking"
+              >Book your stay <i data-lucide="arrow-up-right"></i></a
+            ><a class="button button-ghost" href="#about"
+              >Explore the hotel <i data-lucide="play-circle"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-foot container">
+          <span><i data-lucide="map-pin"></i> Kijungu, Hoima, Uganda</span
+          ><span class="hero-scroll"
+            ><i data-lucide="mouse"></i> Scroll to discover</span
+          >
+        </div>
+      </section>
+
+      <section class="intro section container" id="about">
+        <div class="intro-photo reveal">
+          <img
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+            alt="Elegant Ashley International Hotel exterior"
+          /><span class="photo-note">Est. in the heart<br />of Hoima</span>
+        </div>
+        <div class="intro-copy reveal">
+          <p class="eyebrow">The Ashley welcome</p>
+          <h2>Stay somewhere<br /><em>that feels like yours.</em></h2>
+          <p>
+            Located in the calm Kijungu neighbourhood, Ashley International
+            Hotel is a welcoming base for business, family escapes and unhurried
+            weekends. Every detail is designed to make your time in Hoima feel
+            easy.
+          </p>
+          <p>
+            From a quiet morning by the pool to a generous dinner after a day
+            exploring, our team is here with genuine care and a distinctly local
+            warmth.
+          </p>
+          <a class="text-link" href="#services"
+            >Discover our hospitality <i data-lucide="arrow-up-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="stats-band">
+        <div class="container stats">
+          <div><strong>24/7</strong><span>Reception & care</span></div>
+          <div><strong>5</strong><span>Room categories</span></div>
+          <div><strong>01</strong><span>Peaceful address</span></div>
+          <div><strong>∞</strong><span>Warm welcomes</span></div>
+        </div>
+      </section>
+
+      <section class="rooms section container" id="rooms">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Rest well</p>
+            <h2>Rooms with room<br /><em>to breathe.</em></h2>
+          </div>
+          <p>
+            Comfortable accommodation, considered amenities and the kind of
+            quiet that makes tomorrow feel close at hand.
+          </p>
+        </div>
+        <div class="room-grid">
+          <article class="room-card reveal" id="standard-room">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85"
+                alt="Standard room with queen bed"
+              /><span>From UGX 180,000</span>
+            </div>
+            <div class="room-body">
+              <h3>Standard Room</h3>
+              <p>
+                A calm, beautifully finished retreat for restful nights and easy
+                mornings.
+              </p>
+              <div class="room-meta">
+                <span><i data-lucide="bed-double"></i> Queen bed</span
+                ><span><i data-lucide="users"></i> 2 guests</span>
+              </div>
+              <ul class="room-features"><li>Free Wi-Fi</li><li>Air conditioning</li><li>Private bathroom</li></ul>
+              <a href="#booking" class="room-link"
+                >Book now <i data-lucide="arrow-up-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="room-card featured reveal" id="deluxe-room">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85"
+                alt="Deluxe room with sitting area"
+              /><span>From UGX 240,000</span>
+            </div>
+            <div class="room-body">
+              <p class="card-tag">Guest favourite</p>
+              <h3>Deluxe Room</h3>
+              <p>
+                Extra space, a generous sitting corner and a softer landing
+                after a long day.
+              </p>
+              <div class="room-meta">
+                <span><i data-lucide="bed-double"></i> King bed</span
+                ><span><i data-lucide="users"></i> 2 guests</span>
+              </div>
+              <ul class="room-features"><li>Seating area</li><li>Free Wi-Fi</li><li>Breakfast included</li></ul>
+              <a href="#booking" class="room-link"
+                >Book now <i data-lucide="arrow-up-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="room-card reveal" id="executive-room">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85"
+                alt="Executive room interior"
+              /><span>From UGX 320,000</span>
+            </div>
+            <div class="room-body">
+              <h3>Executive Room</h3>
+              <p>
+                Designed for focused work, deep sleep and effortless evenings
+                in.
+              </p>
+              <div class="room-meta">
+                <span><i data-lucide="bed-double"></i> King bed</span
+                ><span><i data-lucide="users"></i> 2 guests</span>
+              </div>
+              <ul class="room-features"><li>Work desk</li><li>Fast Wi-Fi</li><li>Room service</li></ul>
+              <a href="#booking" class="room-link"
+                >Book now <i data-lucide="arrow-up-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="room-card reveal" id="family-room">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1000&q=85"
+                alt="Family room with twin beds"
+              /><span>From UGX 360,000</span>
+            </div>
+            <div class="room-body">
+              <h3>Family Room</h3>
+              <p>
+                Room to gather, recharge and make the most of a family stay in
+                Hoima.
+              </p>
+              <div class="room-meta">
+                <span><i data-lucide="bed-double"></i> Twin + queen</span
+                ><span><i data-lucide="users"></i> 4 guests</span>
+              </div>
+              <ul class="room-features"><li>Family seating</li><li>Free Wi-Fi</li><li>Pool access</li></ul>
+              <a href="#booking" class="room-link"
+                >Book now <i data-lucide="arrow-up-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="room-card reveal" id="vip-suite">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1000&q=85"
+                alt="VIP suite with elegant decor"
+              /><span>From UGX 480,000</span>
+            </div>
+            <div class="room-body">
+              <p class="card-tag">A little extra</p>
+              <h3>VIP Suite</h3>
+              <p>
+                Our most spacious stay, with a separate lounge for unhurried
+                luxury.
+              </p>
+              <div class="room-meta">
+                <span><i data-lucide="bed-double"></i> Super king</span
+                ><span><i data-lucide="users"></i> 2 guests</span>
+              </div>
+              <ul class="room-features"><li>Separate lounge</li><li>Premium Wi-Fi</li><li>Complimentary breakfast</li></ul>
+              <a href="#booking" class="room-link"
+                >Book now <i data-lucide="arrow-up-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature-split section" id="pool">
+        <div class="feature-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1400&q=85"
+            alt="Ashley hotel swimming pool surrounded by greenery"
+          />
+        </div>
+        <div class="feature-copy reveal">
+          <p class="eyebrow">Slow afternoons</p>
+          <h2>A pool made for<br /><em>the pause.</em></h2>
+          <p>
+            Take the day at your own pace. Our clean, family-friendly pool is
+            surrounded by comfortable seating and a relaxed atmosphere for
+            guests of every age.
+          </p>
+          <ul class="check-list">
+            <li><i data-lucide="check"></i> Clean swimming pool</li>
+            <li><i data-lucide="check"></i> Poolside relaxation</li>
+            <li><i data-lucide="check"></i> Comfortable seating</li>
+            <li><i data-lucide="check"></i> Poolside refreshments</li>
+          </ul>
+          <a class="button button-dark" href="#booking"
+            >Plan your stay <i data-lucide="arrow-up-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="dining section container" id="dining">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Gather around</p>
+            <h2>Good food,<br /><em>beautifully easy.</em></h2>
+          </div>
+          <p>
+            Start with a generous breakfast, settle in for lunch or let dinner
+            take its time. Our kitchen brings together local Ugandan dishes and
+            familiar international favourites.
+          </p>
+        </div>
+        <div class="dining-grid">
+          <article class="dining-card large reveal">
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85"
+              alt="Freshly prepared restaurant dish"
+            />
+            <div>
+              <span>01 / Kitchen</span>
+              <h3>Local flavour,<br />open to the world.</h3>
+            </div>
+          </article>
+          <article class="dining-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=85"
+              alt="Table set for dinner"
+            />
+            <div>
+              <span>02 / Dining</span>
+              <h3>Breakfast / Lunch / Dinner</h3>
+            </div>
+          </article>
+          <article class="dining-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+              alt="Refreshing drinks"
+            />
+            <div>
+              <span>03 / Bar</span>
+              <h3>Drinks & refreshments</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="services section-dark section" id="services">
+        <div class="container">
+          <div class="section-heading light-heading reveal">
+            <div>
+              <p class="eyebrow light">Everything considered</p>
+              <h2>Made easy<br /><em>for you.</em></h2>
+            </div>
+            <p>
+              Whether you are here to focus, celebrate or simply rest, our
+              essential services are ready when you are.
+            </p>
+          </div>
+          <div class="service-grid">
+            <div class="service-item reveal">
+              <i data-lucide="clock-3"></i><span>24/7 Reception</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="concierge-bell"></i><span>Room Service</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="wifi"></i><span>Free Wi-Fi</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="sparkles"></i><span>Housekeeping</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="shirt"></i><span>Laundry Service</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="car"></i><span>Airport / Transport</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="parking-square"></i><span>Secure Parking</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="shield-check"></i><span>Security</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="utensils"></i><span>Restaurant</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="waves"></i><span>Swimming Pool</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="presentation"></i
+              ><span>Conference Facilities</span>
+            </div>
+            <div class="service-item reveal">
+              <i data-lucide="trees"></i><span>Garden</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section container" id="gallery">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">A glimpse inside</p>
+            <h2>See yourself<br /><em>staying here.</em></h2>
+          </div>
+          <div class="gallery-filter" role="group" aria-label="Filter gallery">
+            <button class="active" data-filter="all">All</button
+            ><button data-filter="rooms">Rooms</button
+            ><button data-filter="pool">Pool</button
+            ><button data-filter="dining">Dining</button>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          <button
+            class="gallery-item tall reveal"
+            data-category="rooms"
+            data-full="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=85"
+              alt="Bright hotel bedroom"
+            /></button
+          ><button
+            class="gallery-item reveal"
+            data-category="pool"
+            data-full="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=800&q=85"
+              alt="Swimming pool"
+            /></button
+          ><button
+            class="gallery-item reveal"
+            data-category="dining"
+            data-full="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"
+              alt="Restaurant meal"
+            /></button
+          ><button
+            class="gallery-item reveal"
+            data-category="rooms"
+            data-full="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=85"
+              alt="Executive room"
+            /></button
+          ><button
+            class="gallery-item wide reveal"
+            data-category="dining"
+            data-full="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85"
+              alt="Hotel dining table"
+            /></button
+          ><button
+            class="gallery-item reveal"
+            data-category="pool"
+            data-full="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1600&q=90"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=800&q=85"
+              alt="Poolside lounger"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="offers section container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Stay a little longer</p>
+            <h2>Special<br /><em>offers.</em></h2>
+          </div>
+          <p>
+            Thoughtful packages for the kind of trip you will want to remember.
+          </p>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card reveal">
+            <span>01</span>
+            <h3>Weekend Stay</h3>
+            <p>
+              Two nights of restful accommodation, breakfast and pool access.
+            </p>
+            <a href="#booking"
+              >Book package <i data-lucide="arrow-up-right"></i
+            ></a>
+          </article>
+          <article class="offer-card offer-featured reveal">
+            <span>02</span>
+            <h3>Family Holiday</h3>
+            <p>
+              More room to gather, with breakfast for the whole family and a
+              warm welcome.
+            </p>
+            <a href="#booking"
+              >Book package <i data-lucide="arrow-up-right"></i
+            ></a>
+          </article>
+          <article class="offer-card reveal">
+            <span>03</span>
+            <h3>Business Stay</h3>
+            <p>
+              Reliable Wi-Fi, a calm room and the support you need to stay
+              productive.
+            </p>
+            <a href="#booking"
+              >Book package <i data-lucide="arrow-up-right"></i
+            ></a>
+          </article>
+          <article class="offer-card reveal">
+            <span>04</span>
+            <h3>Romantic Getaway</h3>
+            <p>Slow mornings, beautiful dinners and an evening made for two.</p>
+            <a href="#booking"
+              >Book package <i data-lucide="arrow-up-right"></i
+            ></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="booking section" id="booking">
+        <div class="container booking-layout">
+          <div class="booking-copy reveal">
+            <p class="eyebrow light">Your room is waiting</p>
+            <h2>Make a reservation<br /><em>with ease.</em></h2>
+            <p>
+              Send us your details and our team will confirm availability and
+              rates as soon as possible.
+            </p>
+            <div class="booking-contact">
+              <span><i data-lucide="phone"></i> +256 784 106 541</span
+              ><span
+                ><i data-lucide="mail"></i> bamuturakijunior40@gmail.com</span
+              >
+            </div>
+          </div>
+          <form class="booking-form reveal" id="booking-form">
+            <div class="form-row">
+              <label
+                >Full name<input
+                  type="text"
+                  name="name"
+                  placeholder="Your full name"
+                  required /></label
+              ><label
+                >Phone number<input
+                  type="tel"
+                  name="phone"
+                  placeholder="+256 ..."
+                  required
+              /></label>
+            </div>
+            <div class="form-row">
+              <label
+                >Email address<input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required /></label
+              ><label
+                >Number of guests<select name="guests" required>
+                  <option value="">Select guests</option>
+                  <option>1 guest</option>
+                  <option>2 guests</option>
+                  <option>3 guests</option>
+                  <option>4+ guests</option>
+                </select></label
+              >
+            </div>
+            <div class="form-row">
+              <label
+                >Check-in<input type="date" name="checkin" required /></label
+              ><label
+                >Check-out<input type="date" name="checkout" required
+              /></label>
+            </div>
+            <label
+              >Room type<select name="room" required>
+                <option value="">Choose a room</option>
+                <option>Standard Room</option>
+                <option>Deluxe Room</option>
+                <option>Executive Room</option>
+                <option>Family Room</option>
+                <option>VIP Suite</option>
+              </select></label
+            ><label
+              >Special requests<textarea
+                name="requests"
+                rows="3"
+                placeholder="Anything we can prepare for you?"
+              ></textarea></label
+            ><button class="button button-primary" type="submit">
+              Request booking <i data-lucide="arrow-up-right"></i>
+            </button>
+            <p class="form-message" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="location section container">
+        <div class="location-card reveal">
+          <div>
+            <p class="eyebrow">Find us</p>
+            <h2>Your next<br /><em>good address.</em></h2>
+            <p>Ashley International Hotel<br />Kijungu, Hoima, Uganda</p>
+            <a
+              class="text-link"
+              href="https://maps.google.com/?q=Kijungu,+Hoima,+Uganda"
+              target="_blank"
+              rel="noreferrer"
+              >Open in Google Maps <i data-lucide="arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="map-placeholder">
+            <span class="map-pin"><i data-lucide="map-pin"></i></span>
+            <div class="map-label">
+              <strong>Ashley International Hotel</strong
+              ><small>Kijungu, Hoima</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-dark section" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-info reveal">
+            <p class="eyebrow light">We would love to hear from you</p>
+            <h2>Come as you are.<br /><em>Stay awhile.</em></h2>
+            <div class="contact-details">
+              <a href="tel:+256784106541"
+                ><i data-lucide="phone"></i
+                ><span><small>Phone</small>+256 784 106 541</span></a
+              ><a href="mailto:bamuturakijunior40@gmail.com"
+                ><i data-lucide="mail"></i
+                ><span
+                  ><small>Email</small>bamuturakijunior40@gmail.com</span
+                ></a
+              ><span
+                ><i data-lucide="map-pin"></i
+                ><span
+                  ><small>Location</small>Kijungu, Hoima, Uganda</span
+                ></span
+              >
+            </div>
+            <div class="socials">
+              <a href="#" aria-label="Facebook"
+                ><i data-lucide="facebook"></i></a
+              ><a href="#" aria-label="Instagram"
+                ><i data-lucide="instagram"></i></a
+              ><a href="https://wa.me/256784106541" aria-label="WhatsApp"
+                ><i data-lucide="message-circle"></i></a
+              ><a href="#" aria-label="TikTok"><i data-lucide="music-2"></i></a
+              ><a href="#" aria-label="YouTube"
+                ><i data-lucide="youtube"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <label
+              >Name<input
+                name="contactName"
+                type="text"
+                placeholder="Your name"
+                required /></label
+            ><label
+              >Email<input
+                name="contactEmail"
+                type="email"
+                placeholder="you@example.com"
+                required /></label
+            ><label
+              >Phone<input
+                name="contactPhone"
+                type="tel"
+                placeholder="+256 ..." /></label
+            ><label
+              >Message<textarea
+                name="message"
+                rows="5"
+                placeholder="How can we help?"
+                required
+              ></textarea></label
+            ><button class="button button-light" type="submit">
+              Send message <i data-lucide="arrow-up-right"></i>
+            </button>
+            <p class="form-message" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-main">
+        <a class="brand footer-brand" href="#top"
+          ><span class="brand-mark">A</span
+          ><span
+            ><strong>ASHLEY</strong><small>INTERNATIONAL HOTEL</small></span
+          ></a
+        >
+        <p>
+          Kijungu, Hoima, Uganda<br /><a href="tel:+256784106541"
+            >+256 784 106 541</a
+          ><br /><a href="mailto:bamuturakijunior40@gmail.com"
+            >bamuturakijunior40@gmail.com</a
+          >
+        </p>
+        <div>
+          <h4>Explore</h4>
+          <a href="#about">About</a><a href="#rooms">Rooms</a
+          ><a href="#pool">Swimming Pool</a><a href="#dining">Restaurant</a
+          ><a href="#gallery">Gallery</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <a href="#contact">Contact us</a><a href="#booking">Book now</a
+          ><a href="https://wa.me/256784106541">WhatsApp</a
+          ><a href="mailto:bamuturakijunior40@gmail.com">Email us</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; 2026 Ashley International Hotel. All Rights Reserved.</span
+        ><a href="#top">Back to top <i data-lucide="arrow-up"></i></a>
+      </div>
+    </footer>
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/256784106541?text=Hello%20Ashley%20International%20Hotel%2C%20I%20would%20like%20to%20make%20a%20booking.%20Please%20provide%20me%20with%20room%20availability%20and%20rates."
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Book via WhatsApp"
+      ><i data-lucide="message-circle"></i><span>Book via WhatsApp</span></a
+    >
+    <div
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Enlarged gallery image"
+    >
+      <button class="lightbox-close" aria-label="Close image">
+        <i data-lucide="x"></i></button
+      ><img src="" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
